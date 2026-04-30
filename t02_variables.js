@@ -5,7 +5,7 @@ console.log("Running t02_variables.js")
 console.log('yo wsp little timmys this is a test')
 //variables
 let userName = 'Lewis';
-let date = '30th of April 2026';
+let date = '2026';
 let age = '15';
 let PocketMoney = 'a few hundred'
 
