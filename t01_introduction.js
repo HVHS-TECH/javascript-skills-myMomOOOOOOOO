@@ -1,9 +1,18 @@
 /****************************
-This is a block comment.
-Put your header comment here!
+Task: 1
 ****************************/
 console.log("Running t01_introduction.js")
-console.log(/*Insert your message here!*/)
+console.log('yo wsp little timmys this is a test')
+//variables
 
-// This is a single line comment
 
+/****************************
+Main code
+****************************/
+
+
+
+
+/****************************
+Functions
+****************************/
