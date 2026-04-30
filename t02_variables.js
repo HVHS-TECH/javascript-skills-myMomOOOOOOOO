@@ -4,12 +4,13 @@ Task: 1
 console.log("Running t02_variables.js")
 console.log('yo wsp little timmys this is a test')
 //variables
-let username = 
+let userName = 'Lewis';
+
 
 /****************************
 Main code
 ****************************/
-
+console.log(userName);
 
 
 
