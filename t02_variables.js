@@ -14,8 +14,8 @@ Main code
 ****************************/
 console.log(userName);
 console.log("Your name is " + userName);
-console.log("As of " + date) ("you are " + age) ("years old " + userName);
-console.log("You have a few hundred dollars" + userName);
+console.log("As of " + date + " you are " + age + " years old ");
+console.log("You have " + PocketMoney + " dollars ");
 
 
 /****************************
