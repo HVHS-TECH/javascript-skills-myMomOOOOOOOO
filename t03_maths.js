@@ -8,8 +8,8 @@ let userName = 'Lewis';
 let date = '2026';
 let age = '15';
 let PocketMoney = 'a few hundred'
-let birth = '2010'
-let future = '10
+let birth = 2010;
+let future = 10;
 /****************************
 Main code
 ****************************/
