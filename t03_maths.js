@@ -8,13 +8,17 @@ let userName = 'Lewis';
 let date = '2026';
 let age = '15';
 let PocketMoney = 'a few hundred'
-
+let birth = '2010'
+let future = '10
 /****************************
 Main code
 ****************************/
-console.log(userName);
-console.log("Your name is " + userName);
+console.log("Hi " + userName);
 console.log("As of " + date + " you are " + age + " years old ");
+console.log("You were born in " + birth);
+console.log("In 10 years you will be",  birth + future);
+console.log("Your name is " + userName);
+
 console.log("You have " + PocketMoney + " dollars ");
 
 
