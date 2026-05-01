@@ -1,7 +1,4 @@
-/****************************
-Task: 1
-****************************/
-console.log("Running t02_variables.js")
+console.log("Running t03_maths.js")
 console.log('yo wsp little timmys this is a test')
 //variables
 let userName = 'Lewis';
@@ -29,4 +26,3 @@ console.log("Then you get $3, now you have", half + num3 + " dollars ");
 /****************************
 Functions
 ****************************/
-/* Paste your code from task 1 here */
