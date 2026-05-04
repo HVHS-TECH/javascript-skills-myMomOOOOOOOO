@@ -8,7 +8,7 @@ var width = 10;
 var area = length * width;
 
 // calculate the perimeter
-var perimeter =  length + width; 
+var perimeter =  2 *length + 2 * width; 
 
 // Display the results
 console.log("The area of a piece of paper with a length of "+length+", and a width of "+width+", is "+area)
