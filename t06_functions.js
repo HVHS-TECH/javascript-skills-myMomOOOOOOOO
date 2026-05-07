@@ -33,6 +33,6 @@ OUTPUT.innerHTML =
   "<p>Then you get $3, now you have $" + (half + num3) + ".</p>";
 
   function Welcome(){
-    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+    OUTPUT.innerHTML += "<h2>Welcome to the shop</h2>";
   }
   Welcome()
