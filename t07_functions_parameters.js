@@ -38,5 +38,5 @@ OUTPUT.innerHTML =
   Welcome()
 
   function displayProduct(_name, _price){
-    OUTPUT.innerHTML +=
+    OUTPUT.innerHTML += 
   }
