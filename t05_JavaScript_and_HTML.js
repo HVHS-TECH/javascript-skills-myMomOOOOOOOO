@@ -1,4 +1,6 @@
-console.log("Running t03_maths.js")
+const OUTPUT = document.getElementByID("spaceForJavaScriptOutput");
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+console.log("Running t05_Javascript_and_HTML.js")
 console.log('yo wsp little timmys this is a test')
 //variables
 let userName = 'Lewis';
