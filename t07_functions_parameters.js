@@ -36,3 +36,7 @@ OUTPUT.innerHTML =
     OUTPUT.innerHTML += "<h2>Welcome to the shop</h2>";
   }
   Welcome()
+
+  function displayProduct(_name, _price){
+    OUTPUT.innerHTML +=
+  }
