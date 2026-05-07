@@ -1,30 +1,33 @@
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-console.log("Running t05_Javascript_and_HTML.js")
-console.log('yo wsp little timmys this is a test')
-//variables
+
+console.log("Running task 05...");
+
 let userName = 'Lewis';
-let date = '2026';
+let date = 2026;
 let age = 15;
-let PocketMoney = '500'
+let pocketMoney = 500;
 let birth = 2010;
 let future = 10;
 let half = 250;
 let num3 = 3;
+
 /****************************
 Main code
 ****************************/
-console.log("Hi " + userName);
-console.log("As of " + date + " you are " + age + " years old ");
-console.log("You were born in " + birth);
-console.log("In 10 years you will be",age + future);
-console.log("You have " + PocketMoney + " dollars ");
-console.log("You spend half of your money, now you have",PocketMoney - half + " dollars");
-console.log("Then you get $3, now you have", half + num3 + " dollars ");
 
+OUTPUT.innerHTML =
+  "<h2>Added by JavaScript</h2>" +
+  
+  "<p>Hi " + userName + "</p>" +
 
+  "<p>As of " + date + " you are " + age + " years old.</p>" +
 
+  "<p>You were born in " + birth + ".</p>" +
 
-/****************************
-Functions
-****************************/
+  "<p>In 10 years you will be " + (age + future) + " years old.</p>" +
+
+  "<p>You have $" + pocketMoney + ".</p>" +
+
+  "<p>You spend half of your money, now you have $" + (pocketMoney - half) + ".</p>" +
+
+  "<p>Then you get $3, now you have $" + (half + num3) + ".</p>";
