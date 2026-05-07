@@ -1,6 +1,6 @@
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-console.log("Running task 05...");
+console.log("Running task 06...");
 
 let userName = 'Lewis';
 let date = 2026;
