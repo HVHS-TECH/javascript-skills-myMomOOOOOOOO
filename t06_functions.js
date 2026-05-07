@@ -31,3 +31,8 @@ OUTPUT.innerHTML =
   "<p>You spend half of your money, now you have $" + (pocketMoney - half) + ".</p>" +
 
   "<p>Then you get $3, now you have $" + (half + num3) + ".</p>";
+
+  function Welcome(){
+    OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
+  }
+  Welcome()
