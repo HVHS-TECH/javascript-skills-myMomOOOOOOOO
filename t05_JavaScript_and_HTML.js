@@ -1,4 +1,4 @@
-const OUTPUT = document.getElementByID("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 console.log("Running t05_Javascript_and_HTML.js")
 console.log('yo wsp little timmys this is a test')
