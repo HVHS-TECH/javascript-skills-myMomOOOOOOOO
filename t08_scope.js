@@ -1,4 +1,4 @@
-const OUTPUT = document.getElementById("OUTPUT");
+const OUTPUT = document.getElementById("output");
 
  
 
