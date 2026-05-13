@@ -15,10 +15,7 @@ let num3 = 3;
 Functions
 ****************************/
 
-  function Welcome(){
-    OUTPUT.innerHTML += "<h2>Welcome to the shop</h2>";
-  }
-  Welcome()
+ 
 
   function Start(){
     OUTPUT.innerHTML =
@@ -35,4 +32,16 @@ Functions
   "<p>You spend half of your money, now you have $" + (pocketMoney - half) + ".</p>" +
 
   "<p>Then you get $3, now you have $" + (half + num3) + ".</p>";
+   function Welcome(){
+    OUTPUT.innerHTML += "<h2>Welcome to the shop</h2>";
+  }
+  Welcome()
+  
+    function displayProduct(_name, _price){
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
+}
+
+displayProduct("Chocolate bar", 4);
+displayProduct("Chips", 3);
+displayProduct("Drink", 2.50);
   }
