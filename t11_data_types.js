@@ -4,11 +4,11 @@ console.log("Running task 11...");
 
 let userName = 'Lewis';
 let date = 2026;
-let age = 15;
+let age = 16;
 let pocketMoney = 500;
 let birth = 2010;
 let future = 10;
-let half = 250;
+let half = pocketMoney / 2;
 let num3 = 3;
 
 /****************************
@@ -49,6 +49,17 @@ function getName() {
   let name = document.getElementById("nameInput").value;
 
   OUTPUT.innerHTML += "<h2>Hello " + name + "!</h2>";
+}
+
+function updateInfo() {
+
+  age = Number(document.getElementById("ageInput").value);
+
+  pocketMoney = Number(document.getElementById("moneyInput").value);
+
+  half = pocketMoney / 2;
+
+  Start();
 }
 
 Start();
