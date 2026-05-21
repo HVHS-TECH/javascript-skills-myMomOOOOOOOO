@@ -87,4 +87,10 @@ function calculateChange(_money, _price){
   return _money - _price;
 
 }
-Start();
+function showChocolateMessage() {
+
+  let choice = Number(document.getElementById("chocolateInput").value);
+
+  OUTPUT.innerHTML += "<p>" + chocolateMessages[choice] + "</p>";
+
+}

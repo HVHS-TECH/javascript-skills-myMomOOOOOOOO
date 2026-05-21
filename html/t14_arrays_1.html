@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+5<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,6 +20,16 @@
   <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
+
+<form onsubmit="showChocolateMessage(); return false;">
+
+  <label>On a scale of 0-3 how much do you like chocolate?</label>
+
+  <input type="number" id="chocolateInput" min="0" max="3">
+
+  <button type="submit">Submit</button>
+
+</form>
 
   <div id="spaceForJavaScriptOutput">
 
