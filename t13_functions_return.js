@@ -44,11 +44,19 @@ displayProduct("Chips", 3);
 displayProduct("Drink", 2.50);
 
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
+
 if (pocketMoney < 4) {
+
   OUTPUT.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar</p>";
+
 } else {
+
   OUTPUT.innerHTML += "<p>You CAN afford a chocolate bar</p>";
-}
+
+  let change = calculateChange(pocketMoney, 4);
+
+  OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
+
 }
 
 function getName() {
@@ -68,6 +76,9 @@ function updateInfo() {
   Start();
 }
 
-function calculateChange()
+function calculateChange(_money, _price){
 
+  return _money - _price;
+
+}
 Start();
