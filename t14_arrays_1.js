@@ -10,7 +10,12 @@ let birth = 2010;
 let future = 10;
 let half = pocketMoney / 2;
 let num3 = 3;
-
+let chocolateMessages = [
+  "You loath chocolate",
+  "Chocolate is meh",
+  "Chocolate is pretty good",
+  "Chocolate is the best thing EVER!!!!"
+];
 /****************************
 Functions
 ****************************/
