@@ -79,6 +79,8 @@ function updateInfo() {
 
   half = pocketMoney / 2;
 
+}
+
 function calculateChange(_money, _price){
 
   return _money - _price;
