@@ -79,18 +79,19 @@ function updateInfo() {
 
   half = pocketMoney / 2;
 
-  Start();
-}
-
 function calculateChange(_money, _price){
 
   return _money - _price;
 
 }
+
 function showChocolateMessage() {
 
   let choice = Number(document.getElementById("chocolateInput").value);
 
   OUTPUT.innerHTML += "<p>" + chocolateMessages[choice] + "</p>";
 
+}
+
+Start();
 }
