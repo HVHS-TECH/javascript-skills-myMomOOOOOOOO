@@ -58,6 +58,7 @@ if (pocketMoney < 4) {
   OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 
 }
+}
 
 function getName() {
   let name = document.getElementById("nameInput").value;
